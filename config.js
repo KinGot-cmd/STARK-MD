@@ -5,8 +5,8 @@ const fs = require('fs'),
 global.session = "https://stark-md-pair.onrender.com";
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "STARK-MD~hjVKWGwbZ+4wBpX3s4gIePwCUQlDafwcAAA==", // Add sess Id here especially when deploying on panels else use app.json and .env file...
-    SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", // Add multiple numbers with country codes without (+), separated by comma
+    SESSION_ID: process.env.SESSION_ID || "STARK-MD~UUURhBRJ#-ZM6zl39nFzOXi1k3_DES007ufSOXByMSvhoZNYF6k4", // Add sess Id here especially when deploying on panels else use app.json and .env file...
+    SUDO_NUMBERS: process.env.SUDO_NUMBERS || "18299132553", // Add multiple numbers with country codes without (+), separated by comma
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // ✅ only ONE, default = true
     AUTO_STATUS_VIEWS: process.env.AUTO_STATUS_VIEWS || "true",
     AUTO_STATUS_REACTS: process.env.AUTO_STATUS_REACTS || "true",
@@ -15,11 +15,11 @@ module.exports = {
     STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ STATUS VIEWED BY STARK-MD", // Custom message
     MODE: process.env.MODE || "public", // Options: private, public, inbox, groups
     TGTOKEN:process.env.TGTOKEN || "7672295852:AAG0SEMHbM1jhkpodxHspJuVT5tiAhXPPpI",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923199471258", // Only 1 owner number here, others add to sudo numbers
-    OWNER_NAME: process.env.OWNER_NAME || "𓂃ᷱ᪳𝐀ɭīī 𝐈𝐍𝅦𝐗īī𝐃𝐄^᪲᪲᪲輪", // Custom name
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "18299132553", // Only 1 owner number here, others add to sudo numbers
+    OWNER_NAME: process.env.OWNER_NAME || "≛⃝𓂀𝕽•͢𝕶वीᬼ𓆃", // Custom name
     PACK_AUTHOR: process.env.PACK_AUTHOR || "", // Custom
-    PACK_NAME: process.env.PACK_NAME || "",
-    PREFIX: process.env.PREFIX || ".",
+    PACK_NAME: process.env.PACK_NAME || "≛⃝𓂀𝕽•͢𝕶वीᬼ𓆃",
+    PREFIX: process.env.PREFIX || "!",
     VERSION: process.env.VERSION || "7.0.0",
     ANTI_LINK: process.env.ANTI_LINK || "false", // true = kick, delete = delete, warn = warn
     ANTI_CALL: process.env.ANTI_CALL || "false",
@@ -28,7 +28,7 @@ module.exports = {
     ANTI_CALL_MSG: process.env.ANTI_CALL_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     OWNER_REACT: process.env.OWNER_REACT || "false",
-    BOT_NAME: process.env.BOT_NAME || "𓆩ု᪳𝐒𝐓𝐀𝐑𝐊-𝐌𝐃ှ᪳𓆪", // Don't change
+    BOT_NAME: process.env.BOT_NAME || "RK-MD", // Don't change
     BOT_PIC: process.env.BOT_PIC || "https://files.catbox.moe/2ka956.jpg", // Don't change
     AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
     AUTO_BIO: process.env.AUTO_BIO || "false",
